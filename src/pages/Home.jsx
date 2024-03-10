@@ -1,9 +1,10 @@
-import MenuBar from "../components/MenuBar";
+import Header from "../components/Header";
+import "./Home.scss";
 
 const Home = () => {
   return (
-    <div>
-      <MenuBar />
+    <div className="home">
+      <Header />
     </div>
   );
 };
