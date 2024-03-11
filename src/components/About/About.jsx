@@ -4,47 +4,51 @@ import "./About.scss";
 const About = () => {
   return (
     <Container>
-      <CardGroup>
-        <Card>
-          <Card.Body>
-            <Card.Title>Direito do Consumidor</Card.Title>
-            <Card.Text>
-              Nossa equipe comprometida trabalha para simplificar o sistema
-              jurídico, proporcionando serviços compreensíveis e orientados para
-              atender às diversas necessidades de nossos clientes.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
+      <div className="about">
+        <div>
+          <h2 className="about__title">Sobre</h2>
+        </div>
+        <div>
+          <CardGroup>
+            <Card>
+              <Card.Body>
+                <h4 className="card-title">Direito Civil</h4>
+                <Card.Text>
+                  No âmbito civil, lidamos com uma variedade de questões, desde
+                  contratos comerciais até disputas de propriedade e
+                  responsabilidade civil. Nossa experiência nos permite oferecer
+                  orientação sólida e representação eficaz em casos complexos.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <h4 className="card-title">Direito Condominial</h4>
+                <Card.Text>
+                  Para questões relacionadas a condomínios, oferecemos uma gama
+                  completa de serviços jurídicos, incluindo assessoria em
+                  assembleias, elaboração de regulamentos internos, cobranças e
+                  resolução de litígios entre condôminos. Nosso objetivo é
+                  garantir a harmonia e a conformidade dentro da comunidade
+                  condominial.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <h4 className="card-title">Direito Trabalhista</h4>
+                <Card.Text>
+                  Em questões trabalhistas, estamos ao lado dos trabalhadores e
+                  empregadores. Prestamos assistência em casos de demissões
+                  injustas, assédio no local de trabalho, negociações sindicais
+                  e muito mais. Proteger os direitos e interesses das partes
+                  envolvidas é nossa prioridade.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+        </div>
+      </div>
     </Container>
   );
 };

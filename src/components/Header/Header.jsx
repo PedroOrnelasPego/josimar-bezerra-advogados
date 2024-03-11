@@ -13,10 +13,11 @@ const Header = () => {
             <div className="content">
               <div>
                 <Card.Title>
-                  <h1>
+                  <h1>Josimar Bezerra Advogados</h1>
+                  <h2>
                     Advocacia especializada em direito de família, sucessões e
                     imobiliário
-                  </h1>
+                  </h2>
                 </Card.Title>
 
                 <p>
