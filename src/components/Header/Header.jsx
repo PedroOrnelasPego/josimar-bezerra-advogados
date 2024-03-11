@@ -11,10 +11,13 @@ const Header = () => {
         <div className="header__container">
           <div className="content">
             <div>
-              <h1>
-                Advocacia especializada em direito de família, sucessões e
-                imobiliário
-              </h1>
+              <Card.Title>
+                <h1>
+                  Advocacia especializada em direito de família, sucessões e
+                  imobiliário
+                </h1>
+              </Card.Title>
+
               <p>
                 Nossa competência, organização e comprometimento nos capacitam a
                 fornecer aos nossos clientes total suporte em seus momentos de
