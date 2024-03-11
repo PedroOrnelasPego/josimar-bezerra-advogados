@@ -1,12 +1,12 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./MenuBar.scss";
-import logo from "../../assets/justicia.webp";
+import logo from "../../assets/icons/justica.png";
 import WhatsAppButton from "../WhatsAppButton";
 
 const MenuBar = () => {
   return (
     <div>
-      <Navbar expand="lg" className="menubar-custom">
+      <Navbar data-bs-theme="dark" expand="lg" className="menubar-custom">
         <Container>
           <Navbar.Brand>
             <img className="logo_svg" src={logo} alt="" />

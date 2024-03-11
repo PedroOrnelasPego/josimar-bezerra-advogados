@@ -5,8 +5,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+}
+
+body{
+  background-color: #3d444b;
+ 
 }
 
 .card{
   border: none;
+  background-color: transparent;
 }
