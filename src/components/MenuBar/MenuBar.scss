@@ -1,9 +1,17 @@
-.menubar {
-  padding: 40px;
-  color: black;
+.menubar-custom {
+  background-color: #161921;
 
-  .nav-link{
-    color: #000;
-    font-size: 18px;
+  .logo_svg {
+    max-width: 6rem;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+
+    .nav-link {
+      font-size: 18px;
+      color: #fff;
+    }
   }
 }
