@@ -1,6 +1,7 @@
 import "./Header.scss";
 
-import teste from "../../assets/teste.png";
+import headerimg from "../../assets/header-img.png";
+import WhatsAppButton from "../WhatsAppButton";
 
 const Header = () => {
   return (
@@ -16,10 +17,10 @@ const Header = () => {
             fornecer aos nossos clientes total suporte em seus momentos de
             urgência, garantindo atendimento personalizado e dedicado a cada um.
           </p>
-          <button>Entrar em contato</button>
+          <WhatsAppButton />
         </div>
         <div className="imagem">
-          <img src={teste} alt="" />
+          <img src={headerimg} alt="" />
         </div>
       </div>
     </div>
