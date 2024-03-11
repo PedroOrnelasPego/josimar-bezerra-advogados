@@ -5,7 +5,7 @@ import "./WhatsAppButton.scss";
 const WhatsAppButton = () => {
   return (
     <div className="whatsapp">
-      <Button variant="success">
+      <Button className="button-whatsapp" variant="success">
         <span>Entrar em contato</span>
         <a
           target="_blank"
