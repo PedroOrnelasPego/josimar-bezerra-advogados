@@ -1,0 +1,58 @@
+.team {
+  margin-top: 10rem;
+
+  .team__first__card {
+   
+    margin: auto;
+    
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.068);
+  }
+  .team__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.068);
+  }
+
+  .card-group {
+    gap: 2rem;
+  }
+
+  .card-title {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__body {
+      margin-bottom: 4rem;
+    }
+  }
+
+  .pessoa-img {
+    max-width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 781px) {
+  .team__first__card {
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.068);
+  }
+}
