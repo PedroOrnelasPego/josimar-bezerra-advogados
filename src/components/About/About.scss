@@ -1,18 +1,26 @@
+.background {
+  background-color: #fff;
+}
+
 .about {
-  margin-top: 8rem;
+  padding: 3rem 0;
 
   &__title {
     margin-bottom: 2rem;
+    color: #000;
   }
   .card-group {
     .card-title {
-      color: #fff;
-      border-bottom: 1px solid #fff;
+      color: #000;
+      border-bottom: 1px solid #000;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 0.8rem;
     }
 
+    .card-text {
+      color: #000;
+    }
   }
 }
