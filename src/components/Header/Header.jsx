@@ -15,8 +15,8 @@ const Header = () => {
                 <Card.Title>
                   <h1>Josimar Bezerra Advogados</h1>
                   <h2>
-                    Advocacia especializada em direito de família, sucessões e
-                    imobiliário
+                    Advocacia especializada em direito civil, trabalhista,
+                    família, sucessões e direito condominial
                   </h2>
                 </Card.Title>
 
