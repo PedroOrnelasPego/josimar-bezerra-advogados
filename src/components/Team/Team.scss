@@ -49,7 +49,7 @@
   }
 
   .pessoa-img {
-    margin-top: 2rem;
+    margin-top: 4rem;
     max-width: 8rem;
   }
 }
@@ -74,6 +74,28 @@
     }
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .team {
+    .team__first__card {
+      width: 100%;
+      margin-bottom: 2rem;
+      background-color: rgba(0, 0, 0, 0.068);
+    }
+
+    .card-text {
+      text-align: center;
+      color: yellow;
+    }
+
+    .card-group {
+      display: grid;
+      margin-top: 2rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
 @media only screen and (min-width: 1185px) {
   .team {
     .team__first__card {

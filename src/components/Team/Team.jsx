@@ -1,7 +1,9 @@
 import { Card, CardGroup, Container } from "react-bootstrap";
 import "./Team.scss";
 import pessoa from "../../assets/cara1.png";
-import josimarBezerra from "../../assets/team/Josimar-Bezerra.png"
+import josimarBezerra from "../../assets/team/Josimar-Bezerra.png";
+import gustavoMuglia from "../../assets/team/Gustavo-Muglia.png";
+import MarinaSantos from "../../assets/team/Marina-Santos-Costa.png";
 
 const Team = () => {
   return (
@@ -16,14 +18,6 @@ const Team = () => {
               <h6>Especializado em direito condominial e empresarial </h6>
               <h6>Professor de curso de formação de sindico profissional</h6>
               <h6>Atuante em condomínios há mais de 20 anos! </h6>
-              <h6>
-                O Escritório de Advocacia JOSIMAR BEZERRA & ADVOGADOS, obriga-se
-                no cumprimento de suas atividades profissionais a prestar os
-                seus serviços profissionais como atividade meio, dispensando
-                todo o zelo e toda a diligência na defesa dos direitos e
-                interesses dos BENEFICIÁRIOS DO ATENDIMENTO, relativamente ao
-                objeto proposto.
-              </h6>
             </Card.Text>
           </Card.Body>
         </Card>
@@ -31,7 +25,7 @@ const Team = () => {
           <Card className="team__card">
             <Card.Img className="pessoa-img" variant="top" src={pessoa} />
             <Card.Body className="team__card__body">
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Dra. Elene Fernandes</Card.Title>
               <Card.Text>
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
@@ -40,7 +34,11 @@ const Team = () => {
             </Card.Body>
           </Card>
           <Card className="team__card">
-            <Card.Img className="pessoa-img" variant="top" src={pessoa} />
+            <Card.Img
+              className="pessoa-img"
+              variant="top"
+              src={gustavoMuglia}
+            />
             <Card.Body>
               <Card.Title>Dr. Gustavo Muglia</Card.Title>
               <Card.Text>
@@ -48,29 +46,33 @@ const Team = () => {
                   Graduação em Direito pela Faculdade de Direito Milton Campos
                 </h6>
                 <h6>Advogado</h6>
-                <h6>
+                <p>
                   Especialista em Direito Tributário e MBA em Negócios
-                  internacionais pela PUC/MG.
-                </h6>
-                <h6>
-                  Área de atuação: contratos nacionais e
-                  internacionais/tributário/empresarial/negócios
+                  internacionais pela PUC/MG. Área de atuação: contratos
+                  nacionais e internacionais/tributário/empresarial/negócios
                   internacionais/gestão/promoção comercial/ projetos de
                   internacionalização.
-                </h6>
+                </p>
               </Card.Text>
             </Card.Body>
           </Card>
         </CardGroup>
         <CardGroup>
           <Card className="team__card">
-            <Card.Img className="pessoa-img" variant="top" src={pessoa} />
+            <Card.Img className="pessoa-img" variant="top" src={MarinaSantos} />
             <Card.Body className="team__card__body">
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Dra. Marina Santos Costa</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                <h6>Advogada</h6>
+                <h6>
+                  Pós-graduada em Direito Administrativo na Administração
+                  Pública, e em fase de especialização na LGPD- Lei Geral de
+                  Proteção de Dados.
+                </h6>
+                Atuação voltada para assessoria preventiva e contenciosa na área
+                de Direito Condominial, com experiência em elaboração de
+                Convenção e Regimento Interno. Direito de família, direito
+                trabalhista e Empresarial.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -89,7 +91,6 @@ const Team = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-        
       </div>
     </Container>
   );

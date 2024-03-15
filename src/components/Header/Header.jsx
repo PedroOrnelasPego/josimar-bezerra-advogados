@@ -21,10 +21,7 @@ const Header = () => {
                 </Card.Title>
 
                 <p>
-                  Nossa competência, organização e comprometimento nos capacitam
-                  a fornecer aos nossos clientes total suporte em seus momentos
-                  de urgência, garantindo atendimento personalizado e dedicado a
-                  cada um.
+                O Escritório de Advocacia JOSIMAR BEZERRA & ADVOGADOS, obriga-se no cumprimento de suas atividades profissionais a prestar os seus serviços profissionais como atividade meio, dispensando todo o zelo e toda a diligência na defesa dos direitos e interesses dos BENEFICIÁRIOS DO ATENDIMENTO, relativamente ao objeto proposto.
                 </p>
               </div>
               <WhatsAppButton text={"Entrar em contato"} />
