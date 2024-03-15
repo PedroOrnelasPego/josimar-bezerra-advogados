@@ -1,5 +1,9 @@
 .background {
-  background-color: #fff;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.13);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
 }
 
 .about {
@@ -7,12 +11,12 @@
 
   &__title {
     margin-bottom: 2rem;
-    color: #000;
+    color: #fff;
   }
   .card-group {
     .card-title {
-      color: #000;
-      border-bottom: 1px solid #000;
+      color: #fff;
+      border-bottom: 1px solid #fff;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -20,7 +24,7 @@
     }
 
     .card-text {
-      color: #000;
+      color: #fff;
     }
   }
 }
