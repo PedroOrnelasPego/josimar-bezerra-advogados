@@ -1,0 +1,33 @@
+.footer {
+  background-color: #161921;
+  padding: 20px 0;
+
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .social-midia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 8px 0;
+  }
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 8px 0;
+    flex-direction: column;
+  }
+
+  .direitos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}

@@ -10,6 +10,21 @@ const About = () => {
             <h2 className="about__title">Sobre</h2>
           </div>
           <div>
+            <p>
+              O escritório Josimar Bezerra Advogados está sediado na cidade de
+              Belo Horizonte, além de ter base de apoio na cidade de Betim, em
+              uma localização privilegiada que permite um atendimento eficaz,
+              abrangente e personalizado a seus clientes, pessoa física ou
+              jurídica de qualquer porte.
+            </p>
+            <p>
+              Tem como fundador e titular o Dr. Josimar Batista Bezerra,
+              advogado há mais de 20 anos, com vasta área de conhecimento, tendo
+              domínio de direito público e direito privado, além de boa
+              experiência empresarial. Foi titular da assessoria jurídica do
+              Município de Belo Horizonte/MG, e contratado de diversas empresas
+              de porte.
+            </p>
             <CardGroup>
               <Card>
                 <Card.Body>
