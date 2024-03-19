@@ -10,7 +10,6 @@ const Team = () => {
   return (
     <Container>
       <Helmet>
-        <title>Conheça Nossa Equipe - Josimar Bezerra Advogados</title>
         <meta
           name="description"
           content="Conheça nossa equipe de advogados especializados em direito condominial, empresarial, tributário, direito do trabalho e mais."
