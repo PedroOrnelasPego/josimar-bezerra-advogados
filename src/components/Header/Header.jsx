@@ -42,7 +42,7 @@ const Header = () => {
               <WhatsAppButton text={"Entrar em contato"} />
             </div>
             <div className="imagem">
-              <img src={headerimg} alt="" />
+              <img src={headerimg} alt="imagem de cabeçalho" />
             </div>
           </div>
         </div>

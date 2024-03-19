@@ -9,7 +9,7 @@ const MenuBar = () => {
       <Navbar data-bs-theme="dark" expand="lg" className="menubar-custom">
         <Container>
           <Navbar.Brand>
-            <img className="logo_svg" src={logo} alt="" />
+            <img className="logo_svg" src={logo} alt="logo Josimar Bezerra Advogados" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
