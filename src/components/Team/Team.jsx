@@ -4,10 +4,18 @@ import pessoa from "../../assets/cara1.png";
 import josimarBezerra from "../../assets/team/Josimar-Bezerra.png";
 import gustavoMuglia from "../../assets/team/Gustavo-Muglia.png";
 import MarinaSantos from "../../assets/team/Marina-Santos-Costa.png";
+import { Helmet } from "react-helmet";
 
 const Team = () => {
   return (
     <Container>
+      <Helmet>
+        <title>Conheça Nossa Equipe - Josimar Bezerra Advogados</title>
+        <meta
+          name="description"
+          content="Conheça nossa equipe de advogados especializados em direito condominial, empresarial, tributário, direito do trabalho e mais."
+        />
+      </Helmet>
       <div className="team">
         <h2 className="team__title">Equipe</h2>
         <Card className="team__first__card">

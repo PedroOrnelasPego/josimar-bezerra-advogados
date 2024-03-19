@@ -20,7 +20,7 @@ const MenuBar = () => {
               <Nav.Link>Equipe</Nav.Link>
               <Nav.Link>Contato</Nav.Link>
               <div className="whatsapp-nav">
-                <WhatsAppButton text={"Entrar em contato"} />
+                <WhatsAppButton text={"Entrar em contato"} img={false} />
               </div>
             </Nav>
           </Navbar.Collapse>
