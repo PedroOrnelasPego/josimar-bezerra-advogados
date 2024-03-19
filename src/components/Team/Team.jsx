@@ -2,6 +2,7 @@ import { Card, CardGroup, Container } from "react-bootstrap";
 import "./Team.scss";
 import pessoa from "../../assets/cara1.png";
 import josimarBezerra from "../../assets/team/Josimar-Bezerra.png";
+import gustavoMuglia from "../../assets/team/Gustavo-Muglia.png";
 import MarinaSantos from "../../assets/team/Marina-Santos-Costa.png";
 
 const Team = () => {
@@ -43,10 +44,11 @@ const Team = () => {
             </Card.Body>
           </Card>
           <Card className="team__card">
-            <img
+            <Card.Img
               className="pessoa-img"
               alt="equipe Josimar Bezerra Advogados"
-              src="https://xlmhk5p0olqhhjov.public.blob.vercel-storage.com/Gustavo_Muglia-VsFcdzpqDlC1o2xhsYst8ywYl1rpo9.png"
+              variant="top"
+              src={gustavoMuglia}
             />
             <Card.Body>
               <Card.Title>Dr. Gustavo Muglia</Card.Title>
@@ -68,8 +70,9 @@ const Team = () => {
         </CardGroup>
         <CardGroup>
           <Card className="team__card">
-            <img
+            <Card.Img
               className="pessoa-img"
+              variant="top"
               alt="equipe Josimar Bezerra Advogados"
               src={MarinaSantos}
             />
