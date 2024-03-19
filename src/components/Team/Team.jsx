@@ -18,7 +18,12 @@ const Team = () => {
       <div className="team">
         <h2 className="team__title">Equipe</h2>
         <Card className="team__first__card">
-          <Card.Img className="pessoa-img" variant="top" src={josimarBezerra} />
+          <Card.Img
+            className="pessoa-img"
+            alt="equipe Josimar Bezerra Advogados"
+            variant="top"
+            src={josimarBezerra}
+          />
           <Card.Body className="team__card__body">
             <Card.Title>Dr. Josimar Bezerra</Card.Title>
             <Card.Text>
@@ -30,7 +35,12 @@ const Team = () => {
         </Card>
         <CardGroup>
           <Card className="team__card">
-            <Card.Img className="pessoa-img" variant="top" src={pessoa} />
+            <Card.Img
+              className="pessoa-img"
+              alt="equipe Josimar Bezerra Advogados"
+              variant="top"
+              src={pessoa}
+            />
             <Card.Body className="team__card__body">
               <Card.Title>Dra. Elene Fernandes</Card.Title>
               <Card.Text>
@@ -43,6 +53,7 @@ const Team = () => {
           <Card className="team__card">
             <Card.Img
               className="pessoa-img"
+              alt="equipe Josimar Bezerra Advogados"
               variant="top"
               src={gustavoMuglia}
             />
@@ -66,7 +77,12 @@ const Team = () => {
         </CardGroup>
         <CardGroup>
           <Card className="team__card">
-            <Card.Img className="pessoa-img" variant="top" src={MarinaSantos} />
+            <Card.Img
+              className="pessoa-img"
+              variant="top"
+              alt="equipe Josimar Bezerra Advogados"
+              src={MarinaSantos}
+            />
             <Card.Body className="team__card__body">
               <Card.Title>Dra. Marina Santos Costa</Card.Title>
               <Card.Text>
@@ -84,7 +100,12 @@ const Team = () => {
             </Card.Body>
           </Card>
           <Card className="team__card">
-            <Card.Img className="pessoa-img" variant="top" src={pessoa} />
+            <Card.Img
+              className="pessoa-img"
+              alt="equipe Josimar Bezerra Advogados"
+              variant="top"
+              src={pessoa}
+            />
             <Card.Body>
               <Card.Title>Dr. Gustavo Muglia</Card.Title>
               <Card.Text>
