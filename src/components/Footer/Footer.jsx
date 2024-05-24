@@ -52,15 +52,6 @@ const Footer = () => {
               Avenida Raja Gabaglia, 1000, Sala 805 - Gutierrez, Belo Horizonte
             </span>
           </a>
-          <a href="https://maps.app.goo.gl/d1AHDCEHsNMFFcth9">
-            <img
-              width="24"
-              height="24"
-              src="https://img.icons8.com/ios-filled/24/FFFFFF/address--v1.png"
-              alt="address--v1"
-            />
-            <span>R. Santa Cruz, 201 - Centro, Betim</span>
-          </a>
         </div>
         <div className="direitos">
           <span>

@@ -1,6 +1,5 @@
 import { Card, CardGroup, Container } from "react-bootstrap";
 import "./Team.scss";
-import pessoa from "../../assets/cara1.png";
 import josimarBezerra from "../../assets/team/Josimar-Bezerra.png";
 import gustavoMuglia from "../../assets/team/Gustavo-Muglia.png";
 import MarinaSantos from "../../assets/team/Marina-Santos-Costa.png";
