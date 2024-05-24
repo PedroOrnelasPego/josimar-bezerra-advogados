@@ -32,22 +32,6 @@ const Team = () => {
               className="pessoa-img"
               alt="equipe Josimar Bezerra Advogados"
               variant="top"
-              src={pessoa}
-            />
-            <Card.Body className="team__card__body">
-              <Card.Title>Dra. Elene Fernandes</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="team__card">
-            <Card.Img
-              className="pessoa-img"
-              alt="equipe Josimar Bezerra Advogados"
-              variant="top"
               src={gustavoMuglia}
             />
             <Card.Body>
@@ -67,8 +51,6 @@ const Team = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-        </CardGroup>
-        <CardGroup>
           <Card className="team__card">
             <Card.Img
               className="pessoa-img"
@@ -92,26 +74,8 @@ const Team = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="team__card">
-            <Card.Img
-              className="pessoa-img"
-              alt="equipe Josimar Bezerra Advogados"
-              variant="top"
-              src={pessoa}
-            />
-            <Card.Body>
-              <Card.Title>Dr. Gustavo Muglia</Card.Title>
-              <Card.Text>
-                Graduação em Direito pela Faculdade de Direito Milton Campos .
-                Advogado. Especialista em Direito Tributário e MBA em Negócios
-                internacionais pela PUC/MG. Área de atuação: contratos nacionais
-                e internacionais/tributário/empresarial/negócios
-                internacionais/gestão/promoção comercial/ projetos de
-                internacionalização.
-              </Card.Text>
-            </Card.Body>
-          </Card>
         </CardGroup>
+        <CardGroup></CardGroup>
       </div>
     </Container>
   );
