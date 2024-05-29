@@ -20,7 +20,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://www.instagram.com/josimarbezerraadvogados/"
+            href="https://www.instagram.com/josimarbezerraadvogados_/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -31,7 +31,7 @@ const Footer = () => {
               alt="instagram-new--v1"
             />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/josimar-bezerra-advogados-b30110301/">
             <img
               width="38"
               height="38"
