@@ -27,7 +27,7 @@ const About = () => {
             </p>
 
             <Link to="/about" className="about-link-home">
-              Click aqui para saber mais sobre nossas areas de atuação.
+              Click aqui para saber mais sobre nossas áreas de atuação.
               <img
                 width="18"
                 height="18"
