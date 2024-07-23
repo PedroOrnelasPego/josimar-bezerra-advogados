@@ -21,13 +21,17 @@ const Header = () => {
                 <p>
                   O Escritório de Advocacia JOSIMAR BEZERRA & ADVOGADOS,
                   obriga-se no cumprimento de suas atividades profissionais a
-                  prestar os seus serviços como atividade meio,
-                  dispensando todo o zelo e toda a diligência na defesa dos
-                  direitos e interesses dos BENEFICIÁRIOS DO ATENDIMENTO,
-                  relativamente ao objeto proposto.
+                  prestar os seus serviços como atividade meio, dispensando todo
+                  o zelo e toda a diligência na defesa dos direitos e interesses
+                  dos BENEFICIÁRIOS DO ATENDIMENTO, relativamente ao objeto
+                  proposto.
                 </p>
               </div>
-              <WhatsAppButton text={"Entrar em contato"} />
+              <WhatsAppButton
+                text={"Entrar em contato"}
+                img={false}
+                number={996881200}
+              />
             </div>
             <div className="imagem">
               <img src={headerimg} alt="imagem de cabeçalho" />
