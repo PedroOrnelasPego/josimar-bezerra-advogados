@@ -1,0 +1,49 @@
+.background {
+  background: rgb(3, 1, 36);
+  background: linear-gradient(
+    51deg,
+    rgba(3, 1, 36, 0.822) 0%,
+    rgb(27, 42, 58) 55%,
+    rgba(159, 114, 62, 1) 100%
+  );
+}
+
+.about {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+
+  .card-group{
+    display: block;
+    
+  }
+
+  p{
+    margin: 3px 0 0 0;
+  }
+
+  .list{
+    margin-top: 3px;
+    display: flex;
+  }
+
+
+
+  &__title {
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  .card-title {
+    color: #fff;
+    text-decoration: underline;
+    text-align: left;
+  }
+
+  .card-text {
+    text-align: left;
+    word-spacing: 1px
+  }
+}

@@ -1,4 +1,4 @@
-.background {
+.background-home {
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.13);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -6,25 +6,31 @@
   -webkit-backdrop-filter: blur(6.3px);
 }
 
-.about {
+.about-home {
   padding: 3rem 0;
+  text-align: center;
 
-  &__title {
+  p {
+    text-align: left;
+  }
+
+  .about-title-home {
     margin-bottom: 2rem;
     color: #fff;
+    text-align: left;
   }
-  .card-group {
-    .card-title {
-      color: #fff;
-      border-bottom: 1px solid #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.8rem;
-    }
+}
+.about-link-home {
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem;
+  text-decoration: underline;
 
-    .card-text {
-      color: #fff;
-    }
+  img {
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
   }
 }

@@ -2,6 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import "./MenuBar.scss";
 import logo from "../../assets/icons/justica.png";
 import WhatsAppButton from "../WhatsAppButton";
+import { Link } from "react-router-dom";
 
 const MenuBar = () => {
   return (
@@ -9,14 +10,24 @@ const MenuBar = () => {
       <Navbar data-bs-theme="dark" expand="lg" className="menubar-custom">
         <Container>
           <Navbar.Brand>
-            <img className="logo_svg" src={logo} alt="logo Josimar Bezerra Advogados" />
+            <Link to="/">
+              <img
+                className="logo_svg"
+                src={logo}
+                alt="logo Josimar Bezerra Advogados"
+              />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link>Home</Nav.Link>
-              <Nav.Link>Sobre</Nav.Link>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
+              <Link className="nav-link" to="/about">
+                Sobre
+              </Link>
               <Nav.Link>Equipe</Nav.Link>
               <Nav.Link>Contato</Nav.Link>
               <div className="whatsapp-nav">
