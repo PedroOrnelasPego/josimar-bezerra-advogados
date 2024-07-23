@@ -4,6 +4,8 @@ import logo from "../../assets/icons/justica.png";
 import WhatsAppButton from "../WhatsAppButton";
 import { Link } from "react-router-dom";
 
+import { Link as ScrollLink } from "react-scroll";
+
 const MenuBar = () => {
   return (
     <div>
@@ -25,15 +27,36 @@ const MenuBar = () => {
               <Link className="nav-link" to="/">
                 Home
               </Link>
-              <Link className="nav-link" to="/about">
+              <ScrollLink
+                to="about-section"
+                smooth={true}
+                duration={500}
+                className="nav-link"
+              >
                 Sobre
-              </Link>
-              <Link>
+              </ScrollLink>
+              <ScrollLink
+                to="team-section"
+                smooth={true}
+                duration={500}
+                className="nav-link"
+              >
                 Equipe
-              </Link>
-              <Link className="nav-link" to="/contato">Contato</Link>
+              </ScrollLink>
+              <ScrollLink
+                to="footer-section"
+                smooth={true}
+                duration={500}
+                className="nav-link"
+              >
+                Contato
+              </ScrollLink>
               <div className="whatsapp-nav">
-                <WhatsAppButton text={"Entrar em contato"} img={false} number={996881200}/>
+                <WhatsAppButton
+                  text={"Entrar em contato"}
+                  img={false}
+                  number={996881200}
+                />
               </div>
             </Nav>
           </Navbar.Collapse>

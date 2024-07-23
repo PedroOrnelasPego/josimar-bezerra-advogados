@@ -8,8 +8,12 @@ const Home = () => {
   return (
     <div className="home">
       <Header />
-      <About />
-      <Team />
+      <div id="about-section">
+        <About />
+      </div>
+      <div id="team-section">
+        <Team />
+      </div>
     </div>
   );
 };

@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import MenuBar from "./components/MenuBar";
 import Footer from "./components/Footer";
 import Curriculo from "./pages/Curriculo";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
@@ -17,7 +18,10 @@ function App() {
           <Route path="/about" element={<About />} />{" "}
           <Route path="/curriculo" element={<Curriculo />} />{" "}
         </Routes>
-        <Footer />
+        <ScrollToTopButton />
+        <div id="footer-section">
+          <Footer />
+        </div>
       </div>
     </Router>
   );
