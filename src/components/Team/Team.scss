@@ -6,13 +6,15 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
-    background-color: rgba(0, 0, 0, 0.068);
+    background-color: rgba(0, 0, 0, 0.13);
   }
   .team__card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.068);
+    display: block;
+    background-color: rgba(0, 0, 0, 0.13);
+
+    .align-image{
+      text-align: center;
+    }
   }
 
   .card-group {
@@ -52,9 +54,18 @@
     margin-top: 4rem;
     max-width: 8rem;
   }
+
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
 }
 
-@media only screen and (max-width: 781px) {
+/* @media only screen and (max-width: 781px) {
   .team {
     .team__first__card {
       width: 100%;
@@ -115,3 +126,4 @@
     }
   }
 }
+ */

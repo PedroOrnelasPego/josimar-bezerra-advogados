@@ -1,6 +1,6 @@
 import { Card, Container } from "react-bootstrap";
 import WhatsAppButton from "../WhatsAppButton";
-import headerimg from "../../assets/header-img.png";
+import headerimg from "../../assets/back-image//header-img.png";
 import "./Header.scss";
 
 const Header = () => {
@@ -13,15 +13,15 @@ const Header = () => {
               <div>
                 <Card.Title>
                   <h1>Josimar Bezerra Advogados</h1>
-                  <h2>
+                  <h5>
                     Advocacia especializada em direito civil, trabalhista,
                     família, sucessões e direito condominial
-                  </h2>
+                  </h5>
                 </Card.Title>
                 <p>
                   O Escritório de Advocacia JOSIMAR BEZERRA & ADVOGADOS,
                   obriga-se no cumprimento de suas atividades profissionais a
-                  prestar os seus serviços profissionais como atividade meio,
+                  prestar os seus serviços como atividade meio,
                   dispensando todo o zelo e toda a diligência na defesa dos
                   direitos e interesses dos BENEFICIÁRIOS DO ATENDIMENTO,
                   relativamente ao objeto proposto.
