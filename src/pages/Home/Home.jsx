@@ -1,6 +1,6 @@
-import About from "../components/About";
-import Header from "../components/Header";
-import Team from "../components/Team";
+import About from "../../components/About";
+import Header from "../../components/Header";
+import Team from "../../components/Team";
 
 import "./Home.scss";
 

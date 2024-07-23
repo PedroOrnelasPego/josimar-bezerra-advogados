@@ -64,6 +64,13 @@ const About = () => {
                 </Card.Body>
               </Card>
             </CardGroup>
+            <CardGroup>
+              <Card>
+                <Card.Body>
+                  <p>Saber mais</p>
+                </Card.Body>
+              </Card>
+            </CardGroup>
           </div>
         </div>
       </Container>
