@@ -17,8 +17,8 @@ const teamMembers = [
     description: (
       <>
         <h6>Especializado em direito condominial e empresarial </h6>
-        <h6>Professor de curso de formação de sindico profissional</h6>
-        <h6>Atuante em condomínios há mais de 20 anos! </h6>
+        <h6>Professor de curso de formação de síndico profissional</h6>
+        <h6>Atuante em condomínios há mais de 30 anos! </h6>
         <p>
           Graduação em Direito pela Faculdade de Direito da PONTIFÍCIA
           UNIVERSIDADE CATÓLICA DO ESTADO DE MINAS GERAIS. Belo Horizonte -
@@ -67,7 +67,7 @@ const teamMembers = [
       <>
         <h6>
           Pós-graduada em Direito Administrativo na Administração Pública, e em
-          fase de especialização na LGPD- Lei Geral de Proteção de Dados.
+          fase de especialização na LGPD - Lei Geral de Proteção de Dados.
         </h6>
         <p>
           Atuação voltada para assessoria preventiva e contenciosa na área de

@@ -8,6 +8,7 @@
 
     .content {
       max-width: 38rem;
+      max-height: 30rem;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -39,6 +40,7 @@
 @media only screen and (max-width: 1200px) {
   .header {
     .content {
+      max-height: 100%;
       h1 {
         font-size: 2.3rem;
         margin-bottom: 1.7rem;

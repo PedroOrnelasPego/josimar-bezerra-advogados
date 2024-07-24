@@ -13,13 +13,14 @@ const About = () => {
           <div>
             <p>
               O escritório Josimar Bezerra Advogados está sediado na cidade de
-              Belo Horizonte, além de ter bases de apoio em outras localidades, previlegiando assim um atendimento eficaz,
-              abrangente e personalizado a seus clientes, pessoa física ou
-              jurídica de qualquer porte.
+              Belo Horizonte, além de ter bases de apoio em outras localidades,
+              privilegiando assim um atendimento eficaz, abrangente e
+              personalizado a seus clientes, pessoa física ou jurídica de
+              qualquer porte.
             </p>
             <p>
               Tem como fundador e titular o Dr. Josimar Batista Bezerra,
-              advogado há mais de 20 anos, com vasta área de conhecimento, tendo
+              advogado há mais de 30 anos, com vasta área de conhecimento, tendo
               domínio de direito público e direito privado, além de boa
               experiência empresarial. Foi titular da assessoria jurídica do
               município de Belo Horizonte/MG, e contratado de diversas empresas

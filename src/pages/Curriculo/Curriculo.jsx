@@ -55,7 +55,7 @@ const Curriculo = () => {
         </p>
         <p>
           Direito Condominial – Especialização em cursos e palestras. Atuação no
-          consultivo e no contencioso há 20 anos. Advogado professor da ASCOOB-
+          consultivo e no contencioso há 30 anos. Advogado professor da ASCOOB-
           Associação de Condomínios do Brasil , Professor no SECOVI-MG em Cursos
           de capacitação para síndico Profissional.
         </p>
