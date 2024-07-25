@@ -1,4 +1,4 @@
-import { Card, Container } from "react-bootstrap";
+import { Card, Container, Image } from "react-bootstrap";
 import WhatsAppButton from "../WhatsAppButton";
 import headerimg from "../../assets/back-image/header-img.png";
 import imageTitle from "../../assets/back-image/image-title3.png";
@@ -14,7 +14,7 @@ const Header = () => {
               <div>
                 <Card.Title>
                   <div className="image-title">
-                    <img src={imageTitle} alt="" />
+                    <Image src={imageTitle} alt="" fluid />
                   </div>
                   <h5>
                     Advocacia especializada em Direito Cível, Empresarial,
