@@ -1,6 +1,7 @@
 import { Card, Container } from "react-bootstrap";
 import WhatsAppButton from "../WhatsAppButton";
-import headerimg from "../../assets/back-image//header-img.png";
+import headerimg from "../../assets/back-image/header-img.png";
+import imageTitle from "../../assets/back-image/image-title.png";
 import "./Header.scss";
 
 const Header = () => {
@@ -12,7 +13,9 @@ const Header = () => {
             <div className="content">
               <div>
                 <Card.Title>
-                  <h1>Josimar Bezerra Advogados</h1>
+                  <div className="image-title">
+                    <img src={imageTitle} alt="" />
+                  </div>
                   <h5>
                     Advocacia especializada em Direito Cível, Empresarial,
                     Trabalhista, Família, Imobiliário, Sucessões, Planejamento
