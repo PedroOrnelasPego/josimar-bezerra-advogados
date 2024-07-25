@@ -1,4 +1,5 @@
 .background {
+padding: 50px 0;
   background: rgb(3, 1, 36);
   background: linear-gradient(
     51deg,
@@ -6,4 +7,19 @@
     rgb(27, 42, 58) 55%,
     rgba(159, 114, 62, 1) 100%
   );
+
+  .card-curriculo {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    padding: 20px;
+    display: flex;
+    h3,
+    h5,
+    h6 {
+      color: #ffff;
+    }
+  }
 }
