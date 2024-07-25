@@ -1,7 +1,7 @@
 import { Card, Container } from "react-bootstrap";
 import WhatsAppButton from "../WhatsAppButton";
 import headerimg from "../../assets/back-image/header-img.png";
-import imageTitle from "../../assets/back-image/image-title.png";
+import imageTitle from "../../assets/back-image/image-title3.png";
 import "./Header.scss";
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
                   <h5>
                     Advocacia especializada em Direito Cível, Empresarial,
                     Trabalhista, Família, Imobiliário, Sucessões, Planejamento
-                    sucessório e patrimonial, Internacional e Condominial
+                    sucessório e patrimonial, Internacional e Condominial.
                   </h5>
                 </Card.Title>
                 <p>
