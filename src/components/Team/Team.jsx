@@ -4,6 +4,8 @@ import josimarBezerra from "../../assets/team/Josimar-Bezerra.png";
 import gustavoMuglia from "../../assets/team/Gustavo-Muglia.png";
 import marinaSantos from "../../assets/team/Marina-Santos-Costa.png";
 import renataAndrade from "../../assets/team/Renata-Andrade.png";
+import brunaCravo from "../../assets/team/Bruna-Cravo.jpeg";
+import mayaraJunia from "../../assets/team/Mayara-Junia.jpeg";
 import { Link } from "react-router-dom";
 import WhatsAppButton from "../WhatsAppButton";
 import PropTypes from "prop-types";
@@ -100,6 +102,57 @@ const teamMembers = [
     ),
     whatsappNumber: "997623235",
     email: "renata@josimarbezerraadvogados.com.br",
+  },
+  {
+    name: "Dra. Bruna Cravo",
+    role: "Advogada",
+    imgSrc: brunaCravo,
+    description: (
+      <>
+        <h6>
+          Advogada, bacharela em Direito pela UFMG, pósgraduada e especializada.
+        </h6>
+        <p>
+          Especialização em Direito Penal e Processual Penal pela Universidade
+          Cândido Mendes (concluída em abril de 2020). Especialização em Direito
+          Militar pela Faculdade Única de Ipatinga (concluída em setembro de
+          2020).
+        </p>
+        <p>
+          Extensões: Segurança Pública e Criminologia pela Faculdade Prominas
+          (concluída em janeiro de 2022). Direitos Humanos e Fundamentais pela
+          Faculdade Prominas (concluída em janeiro de 2022).
+        </p>
+      </>
+    ),
+    whatsappNumber: "989580903",
+    email: "brunappcravo@outlook.com",
+  },
+  {
+    name: "Dra. Mayara Junia",
+    role: "Advogada",
+    imgSrc: mayaraJunia,
+    description: (
+      <>
+        <h6>
+          Graduada em Direito - Bacharelado - Faculdade Presidente Antônio
+          Carlos FUPAC/UNIPAC Itabirito/MG
+        </h6>
+        <h6>
+          Pós - Graduada em Direito Civil e Processo Civil - Faculdade
+          Presidente Antônio Carlos FUPAC/UNIPAC Itabirito/MG
+        </h6>
+        <p>
+          Experiência em assistência ao Juiz de Direito, elaboração de
+          relatórios e minutas, atuação em processos cíveis e criminais, e
+          coordenação de estagiários. Área de atuação: assessoria judicial,
+          elaboração de despachos, decisões e sentenças, e atendimento a
+          advogados e partes.
+        </p>
+      </>
+    ),
+    whatsappNumber: "982637368",
+    email: "mayara.junia@yahoo.com.br",
   },
 ];
 
