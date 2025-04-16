@@ -128,32 +128,6 @@ const teamMembers = [
     whatsappNumber: "989580903",
     email: "brunappcravo@outlook.com",
   },
-  {
-    name: "Dra. Mayara Junia",
-    role: "Advogada",
-    imgSrc: mayaraJunia,
-    description: (
-      <>
-        <h6>
-          Graduada em Direito - Bacharelado - Faculdade Presidente Antônio
-          Carlos FUPAC/UNIPAC Itabirito/MG
-        </h6>
-        <h6>
-          Pós - Graduada em Direito Civil e Processo Civil - Faculdade
-          Presidente Antônio Carlos FUPAC/UNIPAC Itabirito/MG
-        </h6>
-        <p>
-          Experiência em assistência ao Juiz de Direito, elaboração de
-          relatórios e minutas, atuação em processos cíveis e criminais, e
-          coordenação de estagiários. Área de atuação: assessoria judicial,
-          elaboração de despachos, decisões e sentenças, e atendimento a
-          advogados e partes.
-        </p>
-      </>
-    ),
-    whatsappNumber: "982637368",
-    email: "mayara.junia@yahoo.com.br",
-  },
 ];
 
 const TeamMemberCard = ({
