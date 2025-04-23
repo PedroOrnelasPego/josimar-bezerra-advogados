@@ -53,10 +53,37 @@ const Footer = () => {
             </span>
           </a>
         </div>
-        <div className="direitos">
+        <div className="direitos flex flex-column">
           <span>
             © 2024 Josimar Bezerra Advogados. Todos os direitos reservados.
           </span>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+              color: "#ccc",
+              marginTop: "2rem",
+              fontSize: "0.9rem",
+              fontFamily: "sans-serif",
+              opacity: 0.85,
+            }}
+          >
+            <span>Desenvolvido por&nbsp;</span>
+            <a
+              href="https://veritasweb.dev.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#f5d7a3",
+                fontWeight: "bold",
+                textDecoration: "none",
+              }}
+            >
+              Veritas Web
+            </a>
+          </div>
         </div>
       </Container>
     </div>
