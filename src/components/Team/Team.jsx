@@ -4,8 +4,7 @@ import josimarBezerra from "../../assets/team/Josimar-Bezerra.png";
 import gustavoMuglia from "../../assets/team/Gustavo-Muglia.png";
 import marinaSantos from "../../assets/team/Marina-Santos-Costa.png";
 import renataAndrade from "../../assets/team/Renata-Andrade.png";
-import brunaCravo from "../../assets/team/Bruna-Cravo.jpeg";
-import mayaraJunia from "../../assets/team/Mayara-Junia.jpeg";
+import milena from "../../assets/team/Milena.png";
 import { Link } from "react-router-dom";
 import WhatsAppButton from "../WhatsAppButton";
 import PropTypes from "prop-types";
@@ -41,20 +40,51 @@ const teamMembers = [
     showWhatsApp: false,
   },
   {
+    name: "Dra. Renata Andrade",
+    role: "Advogada",
+    imgSrc: renataAndrade,
+    description: (
+      <>
+        <h6>
+          Formação acadêmica Wilson Cerqueira Consultores Associados —
+          Pós-graduação Lato Sensu. Advogada e integrante da Comissão de
+          Compliance da OAB/MG. Formada em Direito (turma 2003/2007);
+          Pós-graduada em Direito do Trabalho e Previdenciário pelo CAD (2009);
+          Especialização em Relações Trabalhistas e Sindicais — Wilson Cerqueira
+        </h6>
+        <p>
+          Especialização em Relações Trabalhistas e Sindicais. Fundação Getulio
+          Vargas / FGV — Pós-graduação Lato Sensu em Direito Bancário.
+          Universidade Gama Filho — Pós-graduação Lato Sensu em Direito do
+          Trabalho e Previdenciário. Atuação como advogada em escritórios e
+          ambientes corporativos com expertise em Direito do Trabalho, Cível,
+          Contratos, Condominial etc. Consultoria empresarial e contencioso.
+          Atuação como Preposta, Relações Trabalhistas e Sindicais em empresas
+          multinacionais.
+        </p>
+      </>
+    ),
+    whatsappNumber: "997623235",
+    email: "renata@josimarbezerraadvogados.com.br",
+  },
+  {
     name: "Dr. Gustavo Muglia",
     role: "Advogado",
     imgSrc: gustavoMuglia,
     description: (
       <>
-        <h6>Graduação em Direito pela Faculdade de Direito Milton Campos</h6>
+        <h6>Advogado e Consultor Empresarial</h6>
+        <p>Graduado em Direito pela Faculdade de Direito Milton Campos.</p>
         <p>
-          Especialista em Direito Tributário, Direito Societário pela FGV e MBA
-          em Negócios internacionais pela PUC/MG.
+          Pós-graduado em Direito Tributário pela PUC/MG, MBA em Gestão em
+          Negócios Internacionais e Comércio Exterior pela PUC/MG e formação em
+          Direito Societário pela FGV.
         </p>
         <p>
-          Área de atuação: contratos nacionais e internacionais, tributário,
-          empresarial, negócios internacionais, gestão, promoção comercial e
-          projetos de internacionalização.
+          Áreas de atuação: Contratos nacionais e internacionais, consultivo e
+          contencioso tributário, planejamento patrimonial e sucessório, M&A,
+          negócios internacionais, direito aduaneiro, gestão & promoção
+          comercial internacional e projetos de internacionalização.
         </p>
       </>
     ),
@@ -83,50 +113,22 @@ const teamMembers = [
     email: "marina@josimarbezerraadvogados.com.br",
   },
   {
-    name: "Dra. Renata Andrade",
-    role: "Advogada",
-    imgSrc: renataAndrade,
+    name: "Milena Rodrigues dos Anjos",
+    role: "",
+    imgSrc: milena,
     description: (
       <>
-        <h6>
-          Formação acadêmica Wilson Cerqueira Consultores Associados
-          Pós-graduação Lato Sensu
-        </h6>
+        <h6>Graduanda em Direito.</h6>
+        <p>Estagiária em escritório de advocacia desde o 3º período</p>
+        <p>Experiência de trabalho em Jurídico Interno de Multinacional</p>
         <p>
-          Especialização, Relações Trabalhistas e Sindicais. Fundação Getulio
-          Vargas / FGV Pós-graduação Lato Sensu - Especialização, Direito
-          Bancário. Universidade Gama Filho Pós-graduação Lato Sensu -
-          Especialização, Direito do Trabalho e Previdenciário.
+          Conhecimento de área (aquelas abrangidas pelo escritório):
+          Trabalhista, Cível, Família e Empresarial
         </p>
       </>
     ),
-    whatsappNumber: "997623235",
-    email: "renata@josimarbezerraadvogados.com.br",
-  },
-  {
-    name: "Dra. Bruna Cravo",
-    role: "Advogada",
-    imgSrc: brunaCravo,
-    description: (
-      <>
-        <h6>
-          Advogada, bacharela em Direito pela UFMG, pósgraduada e especializada.
-        </h6>
-        <p>
-          Especialização em Direito Penal e Processual Penal pela Universidade
-          Cândido Mendes (concluída em abril de 2020). Especialização em Direito
-          Militar pela Faculdade Única de Ipatinga (concluída em setembro de
-          2020).
-        </p>
-        <p>
-          Extensões: Segurança Pública e Criminologia pela Faculdade Prominas
-          (concluída em janeiro de 2022). Direitos Humanos e Fundamentais pela
-          Faculdade Prominas (concluída em janeiro de 2022).
-        </p>
-      </>
-    ),
-    whatsappNumber: "989580903",
-    email: "brunappcravo@outlook.com",
+    whatsappNumber: "999648650",
+    email: "milena@josimarbezerraadvogados.com.br",
   },
 ];
 
