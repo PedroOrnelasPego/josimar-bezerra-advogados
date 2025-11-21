@@ -96,45 +96,6 @@ const About = () => {
 
             <Card>
               <Card.Body>
-                <h4 className="card-title">Mercado Financeiro</h4>
-                <Card.Text>
-                  <p>
-                    <strong>Private Equity</strong>
-                  </p>
-                  Estruturação de investimentos de private equity no Brasil, por
-                  meio de fundos ou outros veículos de investimento, inclusive
-                  para investidores estrangeiros.
-                  <p>
-                    <strong>Venture Capital</strong>
-                  </p>
-                  Estruturação de investimentos de venture capital, seed
-                  investments e investimentos-anjo no Brasil, por meio de fundos
-                  ou outros veículos de investimento, inclusive para
-                  investidores estrangeiros.
-                  <p>
-                    <strong>Renegociação de Dívidas</strong>
-                  </p>
-                  Assessoria para o desenvolvimento de projetos de
-                  reestruturação de dívidas e refinanciamento de ativos.
-                  <p>
-                    <strong>Operações Estruturadas</strong>
-                  </p>
-                  Planejamento e estruturação de operações complexas no âmbito
-                  do mercado financeiro e de capitais, considerando aspectos
-                  tributários e regulatórios, mediante a utilização de
-                  diferentes institutos, como consórcios e joint ventures.
-                  <p>
-                    <strong>Project Finance</strong>
-                  </p>
-                  Captação de recursos nos mercados financeiro e de capitais, no
-                  Brasil e no exterior para o financiamento de projetos
-                  específicos ou reorganizações societárias, bem como a
-                  estruturação de investimentos estrangeiros no Brasil.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card>
-              <Card.Body>
                 <h4 className="card-title">Direito Tributário</h4>
                 <Card.Text>
                   <p>

@@ -7,12 +7,11 @@ const Curriculo = () => {
       <Container>
         <Card className="card-curriculo">
           <h3>JOSIMAR BATISTA BEZERRA</h3>
-          <h5>Curriculum Vitae Et Studiorum</h5>
-          <h6>Sócio Administrador Da Josimar Bezerra Advogados & Advogados</h6>
+          <h6>Sócio Administrador Da Josimar Bezerra & Advogados</h6>
           <p>Advogado OAB/MG n.º 60.937</p>
           <p>
             <strong>Escritório:</strong> Avenida Raja Gabaglia número 1000,
-            Conjunto 805- Cidade Jardim – Belo Horizonte – MG.
+            conjunto 1103, 1104- Cidade Jardim – Belo Horizonte – MG.
           </p>
 
           <p>
@@ -199,7 +198,7 @@ const Curriculo = () => {
           </p>
 
           <p>
-            <strong>DIREITO IMOBILIÁRIO E CONDOMINIAL:</strong>
+            <strong>DIREITO CONDOMINIAL E IMOBILIÁRIO:</strong>
           </p>
           <p>
             Atuação consultiva e contenciosa há mais de 20 anos. Professor
@@ -275,12 +274,12 @@ const Curriculo = () => {
           </ul>
 
           <p>
-            <strong>REFERÊNCIAS PROFISSIONAIS:</strong>
+            <strong>EXPERIÊNCIAS PROFISSIONAIS:</strong>
           </p>
+          <p>Prefeitura Municipal de Belo Horizonte – Procurador Regional Pampulha.</p>
           <p>IMES – Instituto Mineiro de Ensino de Seguro.</p>
-          <p>Prefeitura de Belo Horizonte – Regional Pampulha.</p>
           <p>BH-TAXI – Cooperativa de Rádio Comunicação.</p>
-          <p>Referências adicionais conforme listagem do PDF.</p>
+          <p>SECOVI-MG/CMI | Sindicato das Empresas do Mercado Imobiliário em Minas Gerais/Câmara do Mercado Imobiliário</p>
 
           <p>
             <strong>ATIVIDADE EMPRESARIAL:</strong>

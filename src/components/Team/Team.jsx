@@ -32,7 +32,7 @@ const teamMembers = [
         </p>
         <div className="whatsapp">
           <Link to="/curriculo" className="link-whatsapp">
-            Ver Currilo completo
+            Ver Curriculo completo
           </Link>
         </div>
       </>
