@@ -49,7 +49,7 @@ const Footer = () => {
               alt="address--v1"
             />
             <span>
-              Avenida Raja Gabaglia, 1000, Sala 805 - Gutierrez, Belo Horizonte
+              Avenida Raja Gabaglia, 1000, Sala 1103/1104 - Gutierrez, Belo Horizonte
             </span>
           </a>
         </div>

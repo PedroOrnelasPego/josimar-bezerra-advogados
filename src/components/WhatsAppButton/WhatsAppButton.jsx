@@ -1,4 +1,3 @@
-import whatsappico from "../../assets/icons/whatsapp.ico";
 import "./WhatsAppButton.scss";
 import PropTypes from "prop-types";
 
@@ -15,10 +14,11 @@ const WhatsAppButton = ({ text, img = true, number }) => {
 
         {img && (
           <img
-            src={whatsappico}
-            alt="Fale Conosco pelo WhatsApp"
-            title="Fale Conosco pelo WhatsApp"
-            className="logo-whatsapp"
+            width="30"
+            height="30"
+            color="#FFFFFF"
+            src="https://img.icons8.com/windows/FFFFFF/96/whatsapp--v1.png"
+            alt="whatsapp--v1"
           />
         )}
       </a>
