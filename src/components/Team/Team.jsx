@@ -45,20 +45,16 @@ const teamMembers = [
     imgSrc: renataAndrade,
     description: (
       <>
-        <h6>
-          Formação acadêmica Wilson Cerqueira Consultores Associados —
-          Pós-graduação Lato Sensu. Advogada e integrante da Comissão de
-          Compliance da OAB/MG. Formada em Direito (turma 2003/2007);
-          Pós-graduada em Direito do Trabalho e Previdenciário pelo CAD (2009);
-          Especialização em Relações Trabalhistas e Sindicais — Wilson Cerqueira
-        </h6>
+        <h6>Advogada e integrante da Comissão de Compliance da OAB/MG.</h6>
         <p>
-          Especialização em Relações Trabalhistas e Sindicais. Fundação Getulio
-          Vargas / FGV — Pós-graduação Lato Sensu em Direito Bancário.
-          Universidade Gama Filho — Pós-graduação Lato Sensu em Direito do
-          Trabalho e Previdenciário. Atuação como advogada em escritórios e
-          ambientes corporativos com expertise em Direito do Trabalho, Cível,
-          Contratos, Condominial etc. Consultoria empresarial e contencioso.
+          Formada em Direito turma 2003/2007; Pós graduada em Direito do
+          Trabalho e Previdenciário pelo CAD em 2009 e Especialização em
+          Relações Trabalhistas e Sindicais pelo Wilson Cerqueira 36ª Turma
+          2021/2022. Atuação como advogada em escritórios e ambientes
+          corporativos com expertise em Direito do Trabalho, Cível, Contratos,
+          Condominial etc. Consultoria empresarial e contencioso.
+        </p>
+        <p>
           Atuação como Preposta, Relações Trabalhistas e Sindicais em empresas
           multinacionais.
         </p>
