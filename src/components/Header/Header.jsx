@@ -25,7 +25,7 @@ const Header = () => {
                 <p>
                   O escritório Josimar Bezerra & Advogados obriga-se, no
                   cumprimento de suas atividades profissionais, a prestar os
-                  seus serviços como atividade meio, dispensando zelo e
+                  seus serviços como atividade meio, com todo o zelo e
                   diligência na defesa dos direitos e interesses dos clientes.
                 </p>
               </div>

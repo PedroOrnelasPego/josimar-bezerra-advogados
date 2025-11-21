@@ -13,11 +13,11 @@ import Email from "../Email";
 const teamMembers = [
   {
     name: "Dr. Josimar Bezerra",
-    role: "Advogado",
+    role: "",
     imgSrc: josimarBezerra,
     description: (
       <>
-        <h6>Especializado em direito condominial e empresarial </h6>
+        <h6>Advogado especializado em direito condominial e empresarial </h6>
         <h6>Professor de curso de formação de síndico profissional</h6>
         <h6>Atuante em condomínios há mais de 30 anos! </h6>
         <p>
@@ -41,7 +41,7 @@ const teamMembers = [
   },
   {
     name: "Dra. Renata Andrade",
-    role: "Advogada",
+    role: "",
     imgSrc: renataAndrade,
     description: (
       <>
@@ -65,7 +65,7 @@ const teamMembers = [
   },
   {
     name: "Dr. Gustavo Muglia",
-    role: "Advogado",
+    role: "",
     imgSrc: gustavoMuglia,
     description: (
       <>

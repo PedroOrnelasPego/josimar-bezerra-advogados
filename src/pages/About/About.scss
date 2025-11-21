@@ -16,21 +16,19 @@
   flex-direction: column;
   text-align: justify;
 
-  .card-group{
+  .card-group {
     display: block;
-    
   }
 
-  p{
+  p {
     margin: 3px 0 0 0;
+    text-align: justify;
   }
 
-  .list{
+  .list {
     margin-top: 3px;
     display: flex;
   }
-
-
 
   &__title {
     margin-bottom: 2rem;
@@ -44,6 +42,6 @@
 
   .card-text {
     text-align: left;
-    word-spacing: 1px
+    word-spacing: 1px;
   }
 }
