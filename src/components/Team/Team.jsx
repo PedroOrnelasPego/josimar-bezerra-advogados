@@ -4,7 +4,6 @@ import josimarBezerra from "../../assets/team/Josimar-Bezerra.png";
 import gustavoMuglia from "../../assets/team/Gustavo-Muglia.png";
 import marinaSantos from "../../assets/team/Marina-Santos-Costa.png";
 import renataAndrade from "../../assets/team/Renata-Andrade.png";
-import milena from "../../assets/team/Milena.png";
 import { Link } from "react-router-dom";
 import WhatsAppButton from "../WhatsAppButton";
 import PropTypes from "prop-types";
@@ -107,25 +106,7 @@ const teamMembers = [
     ),
     whatsappNumber: "987533343",
     email: "marina@josimarbezerraadvogados.com.br",
-  },
-  {
-    name: "Milena Rodrigues dos Anjos",
-    role: "",
-    imgSrc: milena,
-    description: (
-      <>
-        <h6>Graduanda em Direito.</h6>
-        <p>Estagiária em escritório de advocacia desde o 3º período</p>
-        <p>Experiência de trabalho em Jurídico Interno de Multinacional</p>
-        <p>
-          Conhecimento de área (aquelas abrangidas pelo escritório):
-          Trabalhista, Cível, Família e Empresarial
-        </p>
-      </>
-    ),
-    whatsappNumber: "999648650",
-    email: "milena@josimarbezerraadvogados.com.br",
-  },
+  }
 ];
 
 const TeamMemberCard = ({
